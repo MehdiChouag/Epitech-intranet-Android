@@ -13,7 +13,9 @@ For connect to the application, you have to use your login and your UNIX passwor
 
 ## Home
 
-On the home screen you have your log time, your picture and your lastest message.
+On the home screen you have your log time, your picture and your latest message.
+
+*Note: the html code in the latest messages isn't my fault it's because of the obligatory API that was coded with feet*
 
 ![alt tag](https://raw.githubusercontent.com/MehdiChouag/Epitech-intranet-Android/master/image/home_framed.png)
 
