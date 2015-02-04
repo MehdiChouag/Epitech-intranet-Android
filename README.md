@@ -28,3 +28,14 @@ The planning screen allows you to see the future events and indicate you if you'
 With the trombinoscope you can see all student of your promotion and obtain more details about others students, such as their picture and their GPA.
 
 You can also send them an email, adding to your contact and call them if the other student has inform his phone number  
+
+![alt tag](https://raw.githubusercontent.com/MehdiChouag/Epitech-intranet-Android/master/image/trombi.gif)
+
+## Library
+
+[Volley] for the json fetching.
+[Picasso] for the image download. 
+
+
+[Volley]:https://github.com/mcxiaoke/android-volley
+[Picasso]:http://square.github.io/picasso/
