@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_item">
+        <item>Accueil</item>
+        <item>Planning</item>
+        <item>Mes notes</item>
+        <item>Mes projets</item>
+        <item>Mes modules</item>
+        <item>Mes susies</item>
+        <item>Trombinoscope</item>
+    </string-array>
+
+    <string-array name="drawer_year">
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+    </string-array>
+
+    <array name="drawer_icon">
+        <item>@drawable/ic_drawer_home</item>
+        <item>@drawable/ic_drawer_calendar</item>
+        <item>@drawable/ic_drawer_grade</item>
+        <item>@drawable/ic_drawer_project</item>
+        <item>@drawable/ic_drawer_module</item>
+        <item>@drawable/ic_drawer_susie</item>
+        <item>@drawable/ic_drawer_trombi</item>
+    </array>
+
+    <array name="action_trombi">
+        <item>Envoyer un mail</item>
+        <item>Ajouter au contact</item>
+    </array>
+</resources>

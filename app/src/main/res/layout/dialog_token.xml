@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:scaleType="center"
+        android:text="@string/validate_token_header"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/token_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/token_hint"
+        android:inputType="numberDecimal"
+        android:maxLength="8" />
+</LinearLayout>

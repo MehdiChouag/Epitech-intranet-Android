@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+    <color name="purpleTextColor">#7E57C2</color>
+    <color name="purpleTitleColor">#673AB7</color>
+
+    <!-- Marks -->
+    <color name="redMarks">#F44336</color>
+    <color name="greenMarks">#2E7D32</color>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="?listPreferredItemPaddingRight"
+    android:paddingLeft="?listPreferredItemPaddingLeft"
+    android:layout_width="match_parent"
+    android:layout_height="?listPreferredItemHeightSmall">
+
+    <TextView
+        android:text="SWAG"
+        android:id="@+id/project_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/marks"
+        android:layout_centerVertical="true"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>

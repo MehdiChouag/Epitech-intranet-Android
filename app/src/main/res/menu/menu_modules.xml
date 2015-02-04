@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/menu_spinner1"
+        android:title="@string/title_spinner_module"
+        android:icon="@drawable/ic_action_filter"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:actionViewClass="android.widget.Spinner" />
+</menu>

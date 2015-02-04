@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-840bc13070ec5f784bd3561920f76dbb79f6d244.jar" />
+    </item>
+    <item
+        jar="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/classes-ac306a4e40d6eac76c911b1a7489482c6fb5c780.jar" />
+    </item>
+    <item
+        jar="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/classes-73a03410f6dcef123e04642a9933f7a4b3f56322.jar" />
+    </item>
+    <item
+        jar="/Users/mehdichouag/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.10/8d62b91f5ccb6f7f872313191c016c03bb61a792/library-1.0.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d62b91f5ccb6f7f872313191c016c03bb61a792">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/library-1.0.10-f11583e1e7f016d47717da82da76a5eca8046996.jar" />
+    </item>
+    <item
+        jar="/Users/mehdichouag/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-648e5acd379c49872e752808af0bf67d64ae8894.jar" />
+    </item>
+    <item
+        jar="/Users/mehdichouag/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-67945ef5eee25962edfca9eb4fffd90ccc96f412.jar" />
+    </item>
+    <item
+        jar="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/classes-779e65c9082d2868b3164a1c2b77116b9dd89cbc.jar" />
+    </item>
+    <item
+        jar="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/mehdichouag/AndroidstudioProjects/intra-android/app/build/intermediates/pre-dexed/debug/classes-6221c2a42a6037754821784486dcb2ca7fd0eb2a.jar" />
+    </item>
+
+</items>

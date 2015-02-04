@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Epitech Intranet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <!-- Login Screen -->
+    <string name="connexion_screen">Connexion</string>
+    <string name="placeholder_login">Login</string>
+    <string name="placeholder_password">Password</string>
+    <string name="empty_login_and_password_title">Alerte</string>
+    <string name="empty_login_and_password_content">Le login ou le mots de passe est vide.</string>
+
+    <!-- API URL -->
+    <string name="api_get_token">http://epitech-api.herokuapp.com/login</string>
+    <string name="api_infos">http://epitech-api.herokuapp.com/infos</string>
+    <string name="api_get_susies">http://epitech-api.herokuapp.com/susies</string>
+    <string name="api_get_planning">http://epitech-api.herokuapp.com/planning</string>
+    <string name="api_get_projects">http://epitech-api.herokuapp.com/projects</string>
+    <string name="api_user_picture">https://cdn.local.epitech.eu/userprofil/profilview/%1$s.jpg</string>
+    <string name="api_marks">http://epitech-api.herokuapp.com/marks</string>
+    <string name="api_modules">http://epitech-api.herokuapp.com/modules</string>
+    <string name="api_trombi">http://epitech-api.herokuapp.com/trombi</string>
+    <string name="api_get_user">http://epitech-api.herokuapp.com/user</string>
+    <string name="api_validate_token">http://epitech-api.herokuapp.com/token</string>
+
+    <!-- HomeFragment -->
+    <string name="log_time">Temps de log</string>
+    <string name="lastest_message">Dernier messages</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="time_log">%1$sh %2$s %3$sh</string>
+
+    <!-- Error Connection -->
+    <string name="alert_dialog_title">Aucune connexion internet.</string>
+    <string name="alert_dialog_message">Aucune connexion, veuilliez réessayer ultérieurement</string>
+    <string name="alert_dialog_btn">OK</string>
+
+    <!-- Error Login -->
+    <string name="login_alert_title">Erreur de connexion</string>
+    <string name="login_alert_message">Login ou mots de passe invalide</string>
+    <string name="login_alert_btn">OK</string>
+
+    <!-- Detail Activity -->
+    <string name="detail_time_string">De %1$s à %2$s</string>
+    <string name="detail_title_string">%1$s - %2$s</string>
+    <string name="detail_susie_type">Susie de type : %1$s</string>
+    <string name="detail_susie_registered">Nombre d\'étudiants inscrits : %1$d</string>
+    <string name="detail_susie_available">Nombre de places disponibles : %1$d</string>
+    <string name="title_spinner_module">Filter les modules</string>
+
+    <!-- Sharing marks -->
+    <string name="title_sharing_marks">"Note pour %1$s"</string>
+    <string name="content_sharing_marks">"Hey, j'ai eu %1$s pour %2$s"</string>
+
+    <!-- Trombi request -->
+    <string name="promo_trombi">tek%1$s</string>
+
+    <!-- sending email -->
+    <string name="email_trombi">%1$s@epitech.eu</string>
+    <string name="subject_email_trombi">Yo, %1$s quoi de neuf ?</string>
+    <string name="message_email_trombi">"Salut gars,\nLà je t'envoie un mail trop swager avec mon app."</string>
+
+    <!-- Trombi Detail -->
+    <string name="trombi_detail_activity_name">Profil utilisateur</string>
+    <string name="transition_picture_user">user_picture_transition</string>
+    <string name="gpa_user">GPA</string>
+    <string name="send_email_trombi">Envoyer un mail à %1$s.</string>
+    <string name="add_contact_trombi">Ajouter %1$s à vos contact.</string>
+    <string name="call_user_trombi">Appeler %1$s.</string>
+    <string name="token_validation">Token</string>
+    <string name="validate_token_header">Validez votre token</string>
+    <string name="token_hint">Token</string>
+    <string name="send_token">Valider</string>
+    <string name="cancel_token">Annuler</string>
+    <string name="token_validated">Token validé</string>
+    <string name="token_not_validated">Erreur lors de la validation du token</string>
+    <string name="event_added">L\'évènement a bien été ajouté a votre calendrier</string>
+
+</resources>

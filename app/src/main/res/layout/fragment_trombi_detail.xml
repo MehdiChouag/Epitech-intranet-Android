@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/trombi_picture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/user_placeholder"
+                android:layout_marginTop="@dimen/space_big"
+                android:transitionName="@string/transition_picture_user"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/name_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="@dimen/space_std"
+                android:text="sqdqsd"
+                style="@style/TitleTrombiDetailFragment" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/gpa_container"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/space_std"
+                    android:paddingRight="@dimen/space_std"
+                    android:text="@string/gpa_user"
+                    style="@style/TitleTrombiDetailFragment" />
+
+                <TextView
+                    android:id="@+id/gpa_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/space_std"
+                    android:paddingRight="@dimen/space_std"
+                    android:paddingBottom="@dimen/space_std"
+                    style="@style/TitleTrombiDetailFragment" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progress_download"
+                android:layout_centerInParent="true"
+                android:paddingTop="@dimen/space_very_huge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="?android:attr/progressBarStyleLarge" />
+
+            <LinearLayout
+                android:id="@+id/card_container"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/card_mail"
+                    layout="@layout/view_card_trombi_detail" />
+
+                <include
+                    android:id="@+id/card_add_contact"
+                    layout="@layout/view_card_trombi_detail" />
+
+                <include
+                    android:id="@+id/card_call"
+                    layout="@layout/view_card_trombi_detail" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
